@@ -6,9 +6,9 @@ import Services2 from "@/components/service/Services2";
 
 export const metadata = {
   title:
-    "Service Grid 2 || Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Service Grid 2 || Bone Travel Services",
   description:
-    "Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Bone Travel Services",
 };
 
 export default function page() {

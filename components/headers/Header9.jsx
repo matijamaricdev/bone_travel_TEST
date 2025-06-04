@@ -35,8 +35,8 @@ export default function Header9() {
             <div className="header-logo">
               <Link className="d-flex" href="/">
                 <Image
-                  width={150}
-                  height={50}
+                  width={200}
+                  height={25}
                   alt="luxride"
                   src="assets/imgs/template/logo.svg"
                 />

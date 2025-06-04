@@ -6,9 +6,9 @@ import MobailHeader1 from "@/components/headers/MobailHeader1";
 
 export const metadata = {
   title:
-    "Booking Payment || Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Booking Payment || Bone Travel Services",
   description:
-    "Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Bone Travel Services",
 };
 
 export default function page() {

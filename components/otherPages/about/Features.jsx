@@ -48,6 +48,13 @@ Phone or WhatsApp ([insert phone number])
 <br />
 🔹 Submitting a booking request through our website or other channels does not guarantee service. All bookings are subject to availability and pricing confirmation, which will be sent via email. Only once you receive our confirmation email does the booking become valid.
 <br /> <br />
+3.1.1. Booking Acceptance and Limitations <br />
+All booking requests are subject to review and confirmation by BONE Travel. We reserve the right to decline or cancel a booking prior to confirmation if: <br />
+There is a clear pricing error or miscalculation <br />
+We are unable to provide the requested vehicle or service due to limited availability or scheduling conflicts, <br />
+The booking does not meet our service or operational criteria. <br /><br />
+🔹 In such cases, we will notify the client promptly and, where applicable, offer alternatives or refund any advance payments made. <br /><br />
+
 3.2 Payment Methods <br />
 We accept the following payment methods:
 <br />

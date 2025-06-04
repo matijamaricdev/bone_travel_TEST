@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import MobailHeader1 from "@/components/headers/MobailHeader1";
@@ -16,9 +18,9 @@ import Testimonials from "@/components/common/testimonials/Testimonials2";
 import DownloadApp from "@/components/common/downloadApp/DownloadApp";
 export const metadata = {
   title:
-    "Home 1 || Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Home 1 || Bone Travel Services",
   description:
-    "Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Bone Travel Services",
 };
 export default function Home() {
   return (

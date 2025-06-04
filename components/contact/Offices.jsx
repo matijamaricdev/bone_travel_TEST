@@ -15,7 +15,6 @@ export default function Offices() {
                 <div className="cardInfo text-center">
                   <h6 className="heading-20-medium mb-10">{elm.city}</h6>
                   <p className="text-16 mb-20">{elm.address}</p>
-                  <p className="text-16 mb-20">{elm.phone}</p>
                   <p className="text-16">{elm.email}</p>
                 </div>
               </div>

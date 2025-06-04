@@ -31,13 +31,6 @@ export const menuItems = [
   },
   {
     id: 5,
-    title: "Transfers",
-    link: "/booking-vehicle",
-    subMenu: [
-    ]
-  },
-  {
-    id: 6,
     title: "Terms of Use",
     link: "/about",
     subMenu: [

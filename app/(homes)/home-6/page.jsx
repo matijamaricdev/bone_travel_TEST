@@ -12,26 +12,14 @@ import Footer6 from "@/components/footers/Footer6";
 import MobailHeader1 from "@/components/headers/MobailHeader1";
 export const metadata = {
   title:
-    "Home 6 || Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Home 6 || Bone Travel Services",
   description:
-    "Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Bone Travel Services",
 };
 export default function page() {
   return (
     <>
-      <Header6 /> <MobailHeader1 />
-      <main className="main">
-        <Hero />
-        <Process />
-        <Feet />
-        <Faq />
-        <Testimonials />
-        <Features />
-        <Cities />
-        <Blogs />
-        <Features2 />
-      </main>
-      <Footer6 />
+     <h1>Bone Travel 6</h1>
     </>
   );
 }

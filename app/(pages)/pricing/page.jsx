@@ -7,9 +7,9 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Pricing || Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Pricing || Bone Travel Services",
   description:
-    "Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Bone Travel Services",
 };
 export default function page() {
   return (

@@ -6,9 +6,9 @@ import MobailHeader1 from "@/components/headers/MobailHeader1";
 import React from "react";
 export const metadata = {
   title:
-    "Contact 2 || Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Contact 2 || Bone Travel Services",
   description:
-    "Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Bone Travel Services",
 };
 export default function page() {
   return (

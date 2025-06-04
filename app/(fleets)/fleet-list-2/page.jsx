@@ -5,9 +5,9 @@ import MobailHeader1 from "@/components/headers/MobailHeader1";
 
 export const metadata = {
   title:
-    "Fleet List 2 || Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Fleet List 2 || Bone Travel Services",
   description:
-    "Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Bone Travel Services",
 };
 export default function page() {
   return (

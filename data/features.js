@@ -164,3 +164,47 @@ export const features8 = [
     desc: "Both you and your shipments will travel with professional drivers. Always with the highest quality standards.",
   },
 ];
+export const features9 = [
+  {
+    id: 1,
+    iconSrc: "/assets/imgs/trips-tours/trips-tours/Bled.jpg",
+    title: "Bled",
+    description:
+      "Reliable, comfortable and professional transportation for any occasion",
+  },
+  {
+    id: 2,
+    iconSrc: "/assets/imgs/trips-tours/trips-tours/Dubrovnik.jpg",
+    title: "Dubrovnik",
+    description:
+      "Smooth and timely rides to and from the airport, ensuring a hassle-free journey.",
+  },
+  {
+    id: 3,
+    iconSrc: "/assets/imgs/trips-tours/trips-tours/National Park Krka.jpg",
+    title: "Nacionalni Park Krka",
+    description:
+      "Convenient, direct transfers to any destination - travel hassle-free from A to B.",
+  },
+  {
+    id: 4,
+    iconSrc: "/assets/imgs/trips-tours/trips-tours/Plitvice Lakes.jpg",
+    title: "Plitvička jezera",
+    description:
+      "Enjoy scenic trips to breathtaking natural destinations - relax and explore with ease.",
+  },
+  {
+    id: 5,
+   iconSrc: "/assets/imgs/trips-tours/trips-tours/Rovinj.jpg",
+    title: "Rovinj",
+    description:
+      "Flexible, on-demand transportation by the hour - perfect for business or leisure.",
+  },
+  {
+    id: 6,
+    iconSrc: "/assets/imgs/trips-tours/trips-tours/Trakoscan.jpg",
+    title: "Trakošćan",
+    description:
+    "Professional business and corporate transportation in Croatia."
+  },
+];

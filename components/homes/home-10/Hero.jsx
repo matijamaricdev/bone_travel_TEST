@@ -15,6 +15,8 @@ export default function Hero() {
   const handleClick = () => {
     window.location.href = `/booking-vehicle?input=${encodeURIComponent((selectedPlace.name))}`;
   };
+  const [isSwapped, setIsSwapped] = useState(false);
+
   return (
     <>
       <section className="section banner-home1 banner-home10">
@@ -101,7 +103,13 @@ export default function Hero() {
                     </div>
                     <div className="search-inputs">
                       <label className="text-14 color-grey">From</label>
-                      <PlacePicker />
+                      {isSwapped ? (
+                        <div className="p-6">
+                          <PlaceFinderBlank onSelect={setSelectedPlace} />
+                        </div>
+                      ) : (
+                        <PlacePicker />
+                      )}
                     </div>
                   </div>
                   <div className="search-item search-to">
@@ -110,11 +118,25 @@ export default function Hero() {
                     </div>
                     <div className="search-inputs">
                       <label className="text-14 color-grey">To</label>
-                                      <div className="p-6">
-                      <PlaceFinderBlank onSelect={setSelectedPlace} />
-                    </div>
+                      {isSwapped ? (
+                        <PlacePicker />
+                      ) : (
+                        <div className="p-6">
+                          <PlaceFinderBlank onSelect={setSelectedPlace} />
+                        </div>
+                      )}
                     </div>
                   </div>
+                  <div className="search-item search-button mb-0">
+                    <button
+                      type="button"
+                      onClick={() => setIsSwapped((prev) => !prev)}
+                      className="btn btn-secondary w-full"
+                    >
+                      Swap
+                    </button>
+                  </div>
+
                   <div className="search-item search-button mb-0">
                     <button className="btn btn-search" type="submit" onClick={handleClick}>
                       <Image

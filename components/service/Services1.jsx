@@ -13,11 +13,11 @@ export default function Services1() {
             <div key={i} className="col-lg-4 col-sm-6 mb-30">
               <div className="cardService wow fadeInUp">
                 <div className="cardInfo">
-                  <h3 className="cardTitle text-20-medium color-white mb-10">
+                  <h3 className="cardTitle text-20-medium color-white mb-10 text-shadow">
                     {elm.title}
                   </h3>
                   <div className="box-inner-info">
-                    <p className="cardDesc text-14 color-white mb-30">
+                    <p className="cardDesc text-14 color-white mb-30 text-shadow">
                       {elm.description}
                     </p>
                     <Link
@@ -44,9 +44,9 @@ export default function Services1() {
                 </div>
                 <div className="cardImage">
                   <Image
-                    width={370}
-                    height={400}
-                    style={{ height: "fit-content" }}
+                    width={150}
+                    height={200}
+                    style={{ height: "150px", width: "150px", marginLeft: "auto", marginRight: "auto" }}
                     src={elm.image}
                     alt="Luxride"
                   />

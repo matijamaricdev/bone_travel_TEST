@@ -27,7 +27,7 @@ export const cars = [
     id: 3,
     imgSrc: "/assets/imgs/page/homepage1/v-class.png",
     title: "Business Minivan",
-    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac",
+    description: "Mercedes-Benz V-Class, Chevrolet Suburban, Cadillac, large and comfortable",
     passenger: 7,
     luggageS: "5 small",
     luggageL: "5 large",

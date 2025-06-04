@@ -5,6 +5,7 @@ import Breadcumb from "@/components/otherPages/about/Breadcumb-T";
 import Features1 from "@/components/service/serviceSingle/Features1";
 import Features2 from "@/components/service/serviceSingle/Features2";
 import SearchBox from "@/components/service/serviceSingle/SearchBox";
+import SearchBox2 from "@/components/service/serviceSingle/SearchBox2";
 import Script from "next/script";
 import React from "react";
 
@@ -20,7 +21,7 @@ export default function page({ params }) {
       <Header1 /> <MobailHeader1 />
       <main className="main">
         <Breadcumb />
-        <SearchBox />
+        <SearchBox2 />
         <Features1 />
         <Features2 />
       </main>

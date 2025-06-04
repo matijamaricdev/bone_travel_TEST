@@ -14,30 +14,13 @@ import Testimonials from "@/components/homes/home-8/Testimonials";
 import MobailHeader1 from "@/components/headers/MobailHeader1";
 export const metadata = {
   title:
-    "Home 8 || Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Home 8 || Bone Travel Services",
   description:
-    "Lixride Chauffeur Limousine Transport and Car Hire Nextjs Template",
+    "Bone Travel Services",
 };
 export default function page() {
   return (
     <>
-      <Header2 /> <MobailHeader1 />
-      <main className="main">
-        <Hero />
-        <Features1 />
-        <Feet />
-        <Process />
-        <Cities />
-        <Services />
-        <Features />
-        <Facts />
-        <Testimonials />
-        <Blogs />
-        {/* <div className="border-bottom"> */}
-        <Partners />
-        {/* </div> */}
-      </main>
-      <Footer9 />
     </>
   );
 }
